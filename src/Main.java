@@ -327,23 +327,29 @@ public class Main{
         //     System.out.println("The weather is bad");
         // }
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        String name="";
+        // String name="";
 
-        while(name.isEmpty()){
-            System.out.println("Enter your name");
-            name = scanner.nextLine();
-        }
-
-        
-        System.out.println("Hello " + name);
+        // while(name.isEmpty()){
+        //     System.out.println("Enter your name");
+        //     name = scanner.nextLine();
+        // }
 
 
+        // System.out.println("Hello " + name);
 
 
 
-        scanner.close();
+
+
+
+        // scanner.close();
+
+
+        // while(1==1){
+        //     System.out.println("I'm stock inn a while loop");
+        // }
         
     }
 }
