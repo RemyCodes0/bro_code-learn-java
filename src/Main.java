@@ -350,6 +350,22 @@ public class Main{
         // while(1==1){
         //     System.out.println("I'm stock inn a while loop");
         // }
-        
+
+
+        // int age = 1;
+        // do{
+        //     System.out.println("Do this first");
+        // }while(age<0);
+        int number  = 0;
+
+        Scanner scanner = new Scanner(System.in);
+      do {
+            System.out.println("Enter a number between 1 - 10");
+            number = scanner.nextInt();
+        } while(number < 1 || number>10);
+
+        System.out.println("You picked "+ number);
+
+        scanner.close();
     }
 }
