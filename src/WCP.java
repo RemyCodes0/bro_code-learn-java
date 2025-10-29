@@ -31,7 +31,7 @@ public class WCP{
             System.out.printf("The new weight in kgs is: %.2f", newWeight);
         }
         else {
-            System.out.printin("That was not a valid choice")
+            System.out.print("That was not a valid choice");
         }
 
         scanner.close();
