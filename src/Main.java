@@ -367,5 +367,10 @@ public class Main{
     //     System.out.println("You picked "+ number);
 
     //     scanner.close();
+
+    // for( int i = 0; i<10 ; i++ ){
+    //     System.out.println(i);
+    // }
     }
+
 }
