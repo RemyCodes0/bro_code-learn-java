@@ -386,30 +386,56 @@ public class Main{
     // System.out.println();
     // }
     
-    int rows;
-    int columns;
-    char symbol;
-    Scanner scanner = new Scanner(System.in);
+//     int rows;
+//     int columns;
+//     char symbol;
+//     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter the number of rows: ");
-    rows = scanner.nextInt();
+//     System.out.println("Enter the number of rows: ");
+//     rows = scanner.nextInt();
 
-    System.out.println("Enter the number of columns: ");
-    columns = scanner.nextInt();
+//     System.out.println("Enter the number of columns: ");
+//     columns = scanner.nextInt();
 
-    System.out.println("Enter the symbol to use: ");
-    symbol = scanner.next().charAt(0);
+//     System.out.println("Enter the symbol to use: ");
+//     symbol = scanner.next().charAt(0);
 
 
-    for(int i =0; i<rows; i++){
- for(int j=0;  j< columns; j++){
-        System.out.print(symbol);
-    }
-    System.out.println();
-    }
+//     for(int i =0; i<rows; i++){
+//  for(int j=0;  j< columns; j++){
+//         System.out.print(symbol);
+//     }
+//     System.out.println();
+//     }
    
 
-    scanner.close();
+//     scanner.close();
+
+        // String name = "Remy";
+        // int age = 25;
+
+
+        // happyBirthday(name, age);
+        // happyBirthday(name, age);
+        // happyBirthday(name, age);
+        // double result = square(3);
+        // System.out.println(result);
+
+        // System.out.println(cube(3));
+
     }
 
+    // static void happyBirthday(String name, int age){
+    //     System.out.println("Happy birthday to you");
+    //     System.out.printf("Happy birthday dear you %s", name);
+    //     System.out.printf("You are %d years old", age);
+    //     System.out.println("Happy birthday to you\n");
+    // }
+    // static double square(double number){
+
+    //     return number* number;
+    // }
+    // static double cube(double number){
+    //     return number*number*number;
+    }
 }
