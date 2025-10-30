@@ -423,6 +423,17 @@ public class Main{
 
         // System.out.println(cube(3));
 
+System.out.println(add(1,5, 3));
+
+    }
+
+
+    static double add(double a, double b){
+        return a+b;
+    }
+    
+    static double add(double a, double b, double c){
+        return a+b+c;
     }
 
     // static void happyBirthday(String name, int age){
@@ -437,5 +448,5 @@ public class Main{
     // }
     // static double cube(double number){
     //     return number*number*number;
-    }
+    
 }
