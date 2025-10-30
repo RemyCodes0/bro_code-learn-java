@@ -423,18 +423,26 @@ public class Main{
 
         // System.out.println(cube(3));
 
-System.out.println(add(1,5, 3));
+// System.out.println(add(1,5, 3));
+
+
+        // int x = 1;//Local
+
+        doSomething();
 
     }
 
-
-    static double add(double a, double b){
-        return a+b;
+    static void doSomething(){
+        int x = 2;
+        System.out.println(x);
     }
+    // static double add(double a, double b){
+    //     return a+b;
+    // }
     
-    static double add(double a, double b, double c){
-        return a+b+c;
-    }
+    // static double add(double a, double b, double c){
+    //     return a+b+c;
+    // }
 
     // static void happyBirthday(String name, int age){
     //     System.out.println("Happy birthday to you");

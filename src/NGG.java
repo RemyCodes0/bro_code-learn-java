@@ -32,5 +32,7 @@ public class NGG {
 
         System.out.println("You have won");
 
+        scanner.close();
+
     }
 }
