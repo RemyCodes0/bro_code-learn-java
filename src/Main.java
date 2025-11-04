@@ -457,40 +457,62 @@ public class Main{
         // System.out.println(fruits[0]);
         // System.out.println(numOfFruits);
 
-        Scanner scanner = new Scanner(System.in);
-        int size;
+        // Scanner scanner = new Scanner(System.in);
+        // int size;
 
 
-        String[] foods;
-        System.out.println("what number of food do you want?");
-        size = scanner.nextInt();
+        // String[] foods;
+        // System.out.println("what number of food do you want?");
+        // size = scanner.nextInt();
 
-        foods = new String[size];
+        // foods = new String[size];
 
-        foods[0] = "pizza";
-        foods[1]= "taco";
-        foods[2]= "hamburger";
+        // foods[0] = "pizza";
+        // foods[1]= "taco";
+        // foods[2]= "hamburger";
 
 
-        for(int i=0; i < foods.length; i++){
-            System.out.println("Enter your meal");
-            foods[i] = scanner.nextLine();
-            scanner.nextLine();
-        }
+        // for(int i=0; i < foods.length; i++){
+        //     System.out.println("Enter your meal");
+        //     foods[i] = scanner.nextLine();
+        //     scanner.nextLine();
+        // }
 
-        for(String food: foods){
-            System.out.println(food);
-        }
+        // for(String food: foods){
+        //     System.out.println(food);
+        // }
 
         // for(int i = 0; i < foods.length; i++){
         //     System.out.println(foods[i]);
         // }
 
-        System.out.println(foods.length);
+        // System.out.println(foods.length);
+
+        // scanner.close();
+
+        Scanner scanner = new Scanner(System.in);
+        int[] numbers = {1,8,6,6,35,245,34,52,3542423,4,23523,5,2345,345,234,32,423,5423,5};
+        String[] fruits ={ "appel", "orange", "banana"};
+        boolean isFound = false;
+
+        System.out.println("Enter a fruit to search for: ");
+
+        String target = scanner.nextLine() ;
+        
+
+        for(int i=0; i< fruits.length; i++){
+            if(fruits[i].equals(target)){
+                System.out.println("Element found at index"+i);
+                isFound = true;
+                break;
+            }
+        }
+
+        if(!isFound){
+            System.out.println("Element not found in the array");
+        }
 
         scanner.close();
-
-
  
 
 
