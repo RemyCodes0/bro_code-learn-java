@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main{
@@ -428,14 +429,95 @@ public class Main{
 
         // int x = 1;//Local
 
-        doSomething();
+    //     doSomething();
+
+    // }
+
+    // static void doSomething(){
+    //     int x = 2;
+    //     System.out.println(x);
+
+
+
+
+        // String[] fruits = {"appel", "orange", "banana", "coconut"};
+
+        // fruits[0]= "pinappele";  
+        
+        // Arrays.sort(fruits);
+        // Arrays.fill(fruits, "pinnapple");
+
+        // int numOfFruits = fruits.length;
+        // for(int i=0; i< fruits.length; i++){
+        //     System.out.println(fruits[i]);
+        // }
+        // for(String fruit : fruits){
+        //     System.out.println(fruit);
+        // }
+        // System.out.println(fruits[0]);
+        // System.out.println(numOfFruits);
+
+        Scanner scanner = new Scanner(System.in);
+        int size;
+
+
+        String[] foods;
+        System.out.println("what number of food do you want?");
+        size = scanner.nextInt();
+
+        foods = new String[size];
+
+        foods[0] = "pizza";
+        foods[1]= "taco";
+        foods[2]= "hamburger";
+
+
+        for(int i=0; i < foods.length; i++){
+            System.out.println("Enter your meal");
+            foods[i] = scanner.nextLine();
+            scanner.nextLine();
+        }
+
+        for(String food: foods){
+            System.out.println(food);
+        }
+
+        // for(int i = 0; i < foods.length; i++){
+        //     System.out.println(foods[i]);
+        // }
+
+        System.out.println(foods.length);
+
+        scanner.close();
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
-    static void doSomething(){
-        int x = 2;
-        System.out.println(x);
-    }
+
+
+
+
+
+
+
+
+
+    
     // static double add(double a, double b){
     //     return a+b;
     // }
