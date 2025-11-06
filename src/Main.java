@@ -490,31 +490,29 @@ public class Main{
 
         // scanner.close();
 
-        Scanner scanner = new Scanner(System.in);
-        int[] numbers = {1,8,6,6,35,245,34,52,3542423,4,23523,5,2345,345,234,32,423,5423,5};
-        String[] fruits ={ "appel", "orange", "banana"};
-        boolean isFound = false;
+        // Scanner scanner = new Scanner(System.in);
+        // int[] numbers = {1,8,6,6,35,245,34,52,3542423,4,23523,5,2345,345,234,32,423,5423,5};
+        // String[] fruits ={ "appel", "orange", "banana"};
+        // boolean isFound = false;
 
-        System.out.println("Enter a fruit to search for: ");
+        // System.out.println("Enter a fruit to search for: ");
 
-        String target = scanner.nextLine() ;
+        // String target = scanner.nextLine();
         
 
-        for(int i=0; i< fruits.length; i++){
-            if(fruits[i].equals(target)){
-                System.out.println("Element found at index"+i);
-                isFound = true;
-                break;
-            }
-        }
+        // for(int i=0; i< fruits.length; i++){
+        //     if(fruits[i].equals(target)){
+        //         System.out.println("Element found at index"+i);
+        //         isFound = true;
+        //         break;
+        //     }
+        // }
 
-        if(!isFound){
-            System.out.println("Element not found in the array");
-        }
+        // if(!isFound){
+        //     System.out.println("Element not found in the array");
+        // }
 
-        scanner.close();
- 
-
+        // scanner.close();
 
 
 
@@ -522,8 +520,7 @@ public class Main{
 
 
 
-
-
+       System.out.println(add(1,2,3,4,5));
 
 
 
@@ -533,6 +530,13 @@ public class Main{
 
 
 
+    static int add(int... numbers){
+        int sum = 0;
+        for(int number: numbers){
+            sum+=number;
+        }
+        return sum;
+    }
 
 
 
