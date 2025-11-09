@@ -523,34 +523,28 @@ public class Main{
     //    System.out.println(add(1,2,3,4,5));
 
 
+        // String[] fruits ={"apples", "orange", "banana"};
+        // String[] vegetable = {"potato", "onions", "carrot"};
+        // String[] meats = {"chicken", "pork", "beaf", "fish"};
 
 
+        // String[][] groceries = {{"apples", "orange", "banana"},
+        //                         {"potato", "onions", "carrot"},
+        //                         {"chicken", "pork", "beaf", "fish"}};
 
 
-        String[] fruits ={"apples", "orange", "banana"};
-        String[] vegetable = {"potato", "onions", "carrot"};
-        String[] meats = {"chicken", "pork", "beaf", "fish"};
+        // groceries[0][0] = "pineapple";
+        // groceries[1][0]= "celery";
+        // groceries[1][2] = "onion";
 
+        // for(String[] foods: groceries){
+        //     for(String food: foods){
+        //             System.out.print(food+ " ");
+        //     }
+        //     System.out.println();
+        // }
 
-        String[][] groceries = {{"apples", "orange", "banana"},
-                                {"potato", "onions", "carrot"},
-                                {"chicken", "pork", "beaf", "fish"}};
-
-
-        groceries[0][0] = "pineapple";
-        groceries[1][0]= "celery";
-        groceries[1][2] = "onion";
-
-        for(String[] foods: groceries){
-            for(String food: foods){
-                    System.out.print(food+ " ");
-            }
-            System.out.println();
-        }
-
-
-
-
+        
 
 
 
