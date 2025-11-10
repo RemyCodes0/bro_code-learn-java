@@ -565,20 +565,43 @@ public class Main{
     // System.out.println(car.make + " "+ car.model);
     // System.out.println(car2.make + " "+ car2.model);
 
-    Student  student1 = new Student("Spongebob", 30, 3.2);
-    Student student2 = new Student("Patrick", 34, 1.5);
+//     Student  student1 = new Student("Spongebob", 30, 3.2);
+//     Student student2 = new Student("Patrick", 34, 1.5);
 
-System.out.println(student1.name);
-System.out.println(student1.age);
-System.out.println(student1.gpa);
-System.out.println(student1.isEnrolled);
+// System.out.println(student1.name);
+// System.out.println(student1.age);
+// System.out.println(student1.gpa);
+// System.out.println(student1.isEnrolled);
 
-System.out.println(student2.name);
-System.out.println(student2.age);
-System.out.println(student2.gpa);
-System.out.println(student1.isEnrolled);
+// System.out.println(student2.name);
+// System.out.println(student2.age);
+// System.out.println(student2.gpa);
+// System.out.println(student1.isEnrolled);
 
-student1.study();
+// student1.study();
+
+User user1 = new User("spongebob");
+User user2 = new User("Patrick", "Pstart@aol.com");
+User user3 = new User("Sandy", "Scheeks", 27);
+User user4 = new User();
+
+
+System.out.println(user1.username);
+System.out.println(user1.email);
+System.out.println(user1.age);
+
+System.out.println(user2.username);
+System.out.println(user2.email);
+System.out.println(user2.age);
+
+System.out.println(user3.username);
+System.out.println(user3.email);
+System.out.println(user3.age);
+
+System.out.println(user4.username);
+System.out.println(user4.email);
+System.out.println(user4.age);
+
 
 
 
