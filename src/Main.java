@@ -542,11 +542,11 @@ public class Main{
         //             System.out.print(food+ " ");
         //     }
         //     System.out.println();
-        // }
+    //     // }
 
   
 
-    Car car = new Car();
+    // Car car = new Car();
 
     // car.isRunning = true;
     // System.out.println(car.make);
@@ -580,31 +580,44 @@ public class Main{
 
 // student1.study();
 
-User user1 = new User("spongebob");
-User user2 = new User("Patrick", "Pstart@aol.com");
-User user3 = new User("Sandy", "Scheeks", 27);
-User user4 = new User();
+// User user1 = new User("spongebob");
+// User user2 = new User("Patrick", "Pstart@aol.com");
+// User user3 = new User("Sandy", "Scheeks", 27);
+// User user4 = new User();
 
 
-System.out.println(user1.username);
-System.out.println(user1.email);
-System.out.println(user1.age);
+// System.out.println(user1.username);
+// System.out.println(user1.email);
+// System.out.println(user1.age);
 
-System.out.println(user2.username);
-System.out.println(user2.email);
-System.out.println(user2.age);
+// System.out.println(user2.username);
+// System.out.println(user2.email);
+// System.out.println(user2.age);
 
-System.out.println(user3.username);
-System.out.println(user3.email);
-System.out.println(user3.age);
+// System.out.println(user3.username);
+// System.out.println(user3.email);
+// System.out.println(user3.age);
 
-System.out.println(user4.username);
-System.out.println(user4.email);
-System.out.println(user4.age);
-
-
+// System.out.println(user4.username);
+// System.out.println(user4.email);
+// System.out.println(user4.age);
 
 
+Cars car1 = new Cars("Mustang", "Red");
+Cars car2 = new Cars("Corvette", "Blue");
+Cars car3 = new Cars("Charger", "Yellow");
+
+
+
+        Cars[] cars = {new Cars("Mustang", "Red"),new Cars("Corvette", "Blue"),
+    new Cars("Charger", "Yellow"),};
+
+        for(Cars car: cars){
+            car.color = "black";
+        }
+        for(Cars car: cars){
+            car.drive();
+        }
     }
 
 
