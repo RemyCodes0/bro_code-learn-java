@@ -549,25 +549,36 @@ public class Main{
     Car car = new Car();
 
     // car.isRunning = true;
-    System.out.println(car.make);
-    System.out.println(car.year);
-    System.out.println(car.price);
-    System.out.println(car.isRunning);
+    // System.out.println(car.make);
+    // System.out.println(car.year);
+    // System.out.println(car.price);
+    // System.out.println(car.isRunning);
 
-    System.out.println(car.model);
-    System.out.println(car.isRunning);
-    car.start();
-    System.out.println(car.isRunning);
-    car.stop();
-    System.out.println(car.isRunning);
+    // System.out.println(car.model);
+    // System.out.println(car.isRunning);
+    // car.start();
+    // System.out.println(car.isRunning);
+    // car.stop();
+    // System.out.println(car.isRunning);
 
-    Car car2 = new Car();
-    System.out.println(car.make + " "+ car.model);
-    System.out.println(car2.make + " "+ car2.model);
+    // Car car2 = new Car();
+    // System.out.println(car.make + " "+ car.model);
+    // System.out.println(car2.make + " "+ car2.model);
 
+    Student  student1 = new Student("Spongebob", 30, 3.2);
+    Student student2 = new Student("Patrick", 34, 1.5);
 
+System.out.println(student1.name);
+System.out.println(student1.age);
+System.out.println(student1.gpa);
+System.out.println(student1.isEnrolled);
 
+System.out.println(student2.name);
+System.out.println(student2.age);
+System.out.println(student2.gpa);
+System.out.println(student1.isEnrolled);
 
+student1.study();
 
 
 

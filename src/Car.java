@@ -18,8 +18,4 @@ public class Car {
     void drive(){
         System.out.println("You drive the "+ model);
     }
-
-    void break(){
-        System.out.println("You break "+ model);
-    }
 }
