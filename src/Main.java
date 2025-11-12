@@ -603,21 +603,27 @@ public class Main{
 // System.out.println(user4.age);
 
 
-Cars car1 = new Cars("Mustang", "Red");
-Cars car2 = new Cars("Corvette", "Blue");
-Cars car3 = new Cars("Charger", "Yellow");
+// Cars car1 = new Cars("Mustang", "Red");
+// Cars car2 = new Cars("Corvette", "Blue");
+// Cars car3 = new Cars("Charger", "Yellow");
 
 
 
-        Cars[] cars = {new Cars("Mustang", "Red"),new Cars("Corvette", "Blue"),
-    new Cars("Charger", "Yellow"),};
+//         Cars[] cars = {new Cars("Mustang", "Red"),new Cars("Corvette", "Blue"),
+//     new Cars("Charger", "Yellow"),};
 
-        for(Cars car: cars){
-            car.color = "black";
-        }
-        for(Cars car: cars){
-            car.drive();
-        }
+//         for(Cars car: cars){
+//             car.color = "black";
+//         }
+//         for(Cars car: cars){
+//             car.drive();
+//         }
+
+
+        
+
+
+
     }
 
 
