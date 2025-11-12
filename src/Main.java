@@ -617,10 +617,22 @@ public class Main{
 //         }
 //         for(Cars car: cars){
 //             car.drive();
-//         }
+// //         }
 
 
-        
+//         friend friend1 = new friend("spongebob");
+//         friend friend2 = new friend("patrick");
+//         friend friend3 = new friend("squidward");
+//         friend friend4 = new friend("sandy");
+//         friend friend5 = new friend("gary");
+
+//         System.out.println(friend.numOfFriends);
+//         // System.out.println(friend2.numOfFriends);
+//         // System.out.println(friend3.numOfFriends);
+//         friend.showFriends();
+
+
+
 
 
 
