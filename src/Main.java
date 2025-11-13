@@ -633,23 +633,25 @@ public class Main{
 
 
 
-        dog dot = new dog();
-        cats cat = new cats();
-        Plant plant = new Plant();
+        // dog dot = new dog();
+        // cats cat = new cats();
+        // Plant plant = new Plant();
 
 
-        System.out.println(dot.isAlive);
-        dot.eat();
+        // System.out.println(dot.isAlive);
+        // dot.eat();
 
 
-        dot.speak();
-        cat.speak();
-        System.out.println(plant.isAlive);
-        plant.photosynthesize();
+        // dot.speak();
+        // cat.speak();
+        // System.out.println(plant.isAlive);
+        // plant.photosynthesize();
 
 
-
-
+        Students student1 = new Students("Tom", "Riddle", 3.6);
+        student1.showName();
+        System.out.println(student1.gpa);
+        student1.showGPA();
 
 
     }
