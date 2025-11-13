@@ -654,13 +654,20 @@ public class Main{
         // student1.showGPA();
 
 
-        Lizards lizards = new Lizards();
-        Fish fish = new Fish();
-        Scorpion scorpion = new Scorpion();
+        // Lizards lizards = new Lizards();
+        // Fish fish = new Fish();
+        // Scorpion scorpion = new Scorpion();
 
-        lizards.move();
-        fish.move();
-        scorpion.move();
+        // lizards.move();
+        // fish.move();
+        // scorpion.move();
+
+
+
+        
+
+
+
 
 
     }
