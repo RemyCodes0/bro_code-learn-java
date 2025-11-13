@@ -633,6 +633,20 @@ public class Main{
 
 
 
+        dog dot = new dog();
+        cats cat = new cats();
+        Plant plant = new Plant();
+
+
+        System.out.println(dot.isAlive);
+        dot.eat();
+
+
+        dot.speak();
+        cat.speak();
+        System.out.println(plant.isAlive);
+        plant.photosynthesize();
+
 
 
 
