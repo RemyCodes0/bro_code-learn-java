@@ -648,10 +648,19 @@ public class Main{
         // plant.photosynthesize();
 
 
-        Students student1 = new Students("Tom", "Riddle", 3.6);
-        student1.showName();
-        System.out.println(student1.gpa);
-        student1.showGPA();
+        // Students student1 = new Students("Tom", "Riddle", 3.6);
+        // student1.showName();
+        // System.out.println(student1.gpa);
+        // student1.showGPA();
+
+
+        Lizards lizards = new Lizards();
+        Fish fish = new Fish();
+        Scorpion scorpion = new Scorpion();
+
+        lizards.move();
+        fish.move();
+        scorpion.move();
 
 
     }
