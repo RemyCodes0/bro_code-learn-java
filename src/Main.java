@@ -680,23 +680,34 @@ public class Main{
         // System.out.println(triangle.area());
         // System.out.println(rectangle.area());
         
-        Rabbit rabbit = new Rabbit();
+        // Rabbit rabbit = new Rabbit();
 
-        rabbit.flee();
-        Hawk  hawk = new Hawk();
+        // rabbit.flee();
+        // Hawk  hawk = new Hawk();
 
-        hawk.hunt();
+        // hawk.hunt();
 
-        Fish1 fish1 = new Fish1();
+        // Fish1 fish1 = new Fish1();
 
-        fish1.flee();
-        fish1.hunt();
-
-
+        // fish1.flee();
+        // fish1.hunt();
 
 
+        Car1 car1 = new Car1();
+        Bike bike = new Bike();
+        Boat boat = new Boat();
+
+        car1.go();
+
+        bike.go();
+        boat.go();
 
 
+        Vehicle[] vehicles = {car1, bike, boat};
+
+        for(Vehicle vehicle: vehicles){
+            vehicle.go();
+        }
 
 
 
