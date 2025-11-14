@@ -693,21 +693,40 @@ public class Main{
         // fish1.hunt();
 
 
-        Car1 car1 = new Car1();
-        Bike bike = new Bike();
-        Boat boat = new Boat();
+        // Car1 car1 = new Car1();
+        // Bike bike = new Bike();
+        // Boat boat = new Boat();
 
-        car1.go();
+        // car1.go();
 
-        bike.go();
-        boat.go();
+        // bike.go();
+        // boat.go();
 
 
-        Vehicle[] vehicles = {car1, bike, boat};
+        // Vehicle[] vehicles = {car1, bike, boat};
 
-        for(Vehicle vehicle: vehicles){
-            vehicle.go();
-        }
+        // for(Vehicle vehicle: vehicles){
+        //     vehicle.go();
+        // }
+        // Scanner scanner = new Scanner(System.in);
+
+        // Animal1 animal;
+
+        // System.out.print("Would you like a dog or a cat(1= dog, 2= cat)");
+
+        // int choice = scanner.nextInt();
+
+        // if(choice == 1){
+        //     animal = new Dog1();
+        //     animal.speak();
+        // }else if(choice == 2){
+        //     animal = new Cat();
+        //     animal.speak();
+        // }
+
+
+
+
 
 
 
