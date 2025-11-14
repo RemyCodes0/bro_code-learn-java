@@ -666,22 +666,31 @@ public class Main{
         // System.out.println(car1);
 
         
-        Circle circle = new Circle(3);
-        Triangle triangle = new Triangle(4,5);
-        Rectangle rectangle = new Rectangle(6,7);
+        // Circle circle = new Circle(3);
+        // Triangle triangle = new Triangle(4,5);
+        // Rectangle rectangle = new Rectangle(6,7);
 
-        circle.display();
+        // circle.display();
 
-        triangle.display();
+        // triangle.display();
 
-        rectangle.display();
+        // rectangle.display();
 
-        System.out.println(circle.area());
-        System.out.println(triangle.area());
-        System.out.println(rectangle.area());
+        // System.out.println(circle.area());
+        // System.out.println(triangle.area());
+        // System.out.println(rectangle.area());
         
+        Rabbit rabbit = new Rabbit();
 
+        rabbit.flee();
+        Hawk  hawk = new Hawk();
 
+        hawk.hunt();
+
+        Fish1 fish1 = new Fish1();
+
+        fish1.flee();
+        fish1.hunt();
 
 
 
