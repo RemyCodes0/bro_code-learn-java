@@ -662,13 +662,24 @@ public class Main{
         // fish.move();
         // scorpion.move();
 
-        Bin car1  = new Bin("Ford", "Mustang", 2025, "Red");
-        System.out.println(car1);
+        // Bin car1  = new Bin("Ford", "Mustang", 2025, "Red");
+        // System.out.println(car1);
 
         
+        Circle circle = new Circle(3);
+        Triangle triangle = new Triangle(4,5);
+        Rectangle rectangle = new Rectangle(6,7);
+
+        circle.display();
+
+        triangle.display();
+
+        rectangle.display();
+
+        System.out.println(circle.area());
+        System.out.println(triangle.area());
+        System.out.println(rectangle.area());
         
-
-
 
 
 
