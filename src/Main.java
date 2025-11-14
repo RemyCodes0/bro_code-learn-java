@@ -662,9 +662,21 @@ public class Main{
         // fish.move();
         // scorpion.move();
 
-
+        Bin car1  = new Bin("Ford", "Mustang", 2025, "Red");
+        System.out.println(car1);
 
         
+        
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -710,4 +722,14 @@ public class Main{
     // static double cube(double number){
     //     return number*number*number;
     
+
+
+
+
+
+
+
+
+
+
 }
