@@ -744,13 +744,41 @@ public class Main{
         // Library library = new Library("NYC Public Library", 1897, books);
         // library.displayInfo();
 
-        Car3 car3 = new Car3("Corvette", 2025, "V8");
+        // Car3 car3 = new Car3("Corvette", 2025, "V8");
 
-        System.out.println(car3.model);
-        System.out.println(car3.year);
-        System.out.println(car3.engine.type);
+        // System.out.println(car3.model);
+        // System.out.println(car3.year);
+        // System.out.println(car3.engine.type);
 
-        car3.start();
+        // car3.start();
+        //Autoboxing
+        // Integer a = 123;
+        // Double b = 3.14;
+        // Character c = '$';
+        // Boolean d = true;
+
+        // String e = "Pizza";
+        
+        // //Unboxing
+        // double x = b;
+
+        // String a = Integer.toString(123);
+        // String b= Double.toString(3.14);
+        // String c= Character.toString("@");
+        // String d= Boolean.toString(false);
+
+        // String x = a+b+c+d;
+
+        // System.out.println(x);
+
+        // int a= Integer.parseInt("123");
+        // double b= Double.parseDouble("3.14");
+        // char c= "Pizza".charAt(0);
+        // boolean d = Boolean.parseBoolean("true");
+
+        
+
+
     }
 
 
