@@ -1,5 +1,7 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Random;
 
 public class Main{
@@ -776,7 +778,40 @@ public class Main{
         // char c= "Pizza".charAt(0);
         // boolean d = Boolean.parseBoolean("true");
 
+
+
+
+        // ArrayList<Integer> list = new ArrayList<>();
+
+        // list.add(3);
+        // list.add(1);
+        // list.add(2);
+
+        // list.remove(0);
+        // list.set(1, 4);
+
+        // System.out.println(list.get(0));
+
+        // System.out.println(list.size());
+
+        // for(int lis: list){
+        //     System.out.println(lis);
+        // }
+
+
+        // System.out.println(list);
+
+
         
+
+
+
+
+
+
+
+
+
 
 
     }
