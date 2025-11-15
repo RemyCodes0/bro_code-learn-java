@@ -1,4 +1,7 @@
 import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -801,15 +804,26 @@ public class Main{
 
         // System.out.println(list);
 
-        try{
-            System.out.println(1/0);
+        // try{
+        //     System.out.println(1/0);
+        // }
+        // catch(ArithmeticException e){
+        //     System.out.println("You can't divide by zero");
+        // }finally{
+        //     System.out.println("stop");
+        // }
+
+
+
+        try( FileWriter writer = new FileWriter("test.txt");){
+            writer.write("I like pizza!");
+            System.out.println("File has been written");
+        }catch(FileNotFoundException e){
+            System.out.println("Could not locate file location");
         }
-        catch(ArithmeticException e){
-            System.out.println("You can't divide by zero");
-        }finally{
-            System.out.println("stop");
+        catch(IOException e){
+            System.out.println("Could not write file");
         }
-        
 
 
 
