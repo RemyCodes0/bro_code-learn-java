@@ -801,8 +801,16 @@ public class Main{
 
         // System.out.println(list);
 
-
+        try{
+            System.out.println(1/0);
+        }
+        catch(ArithmeticException e){
+            System.out.println("You can't divide by zero");
+        }finally{
+            System.out.println("stop");
+        }
         
+
 
 
 
