@@ -1,5 +1,7 @@
 import java.util.Scanner;
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -815,14 +817,31 @@ public class Main{
 
 
 
-        try( FileWriter writer = new FileWriter("test.txt");){
-            writer.write("I like pizza!");
-            System.out.println("File has been written");
-        }catch(FileNotFoundException e){
-            System.out.println("Could not locate file location");
-        }
-        catch(IOException e){
-            System.out.println("Could not write file");
+        // try( FileWriter writer = new FileWriter("test.txt");){
+        //     writer.write("I like pizza!");
+        //     System.out.println("File has been written");
+        // }catch(FileNotFoundException e){
+        //     System.out.println("Could not locate file location");
+        // }
+        // catch(IOException e){
+        //     System.out.println("Could not write file");
+        // }
+
+        String filePath = "test.txt";
+
+        
+
+        try(BufferedReader reader= new BufferedReader(new FileReader(filePath));){
+            String line;
+
+            while((line = reader.readLine())!=null){
+                System.out.println(line);
+            }
+        }catch(FileNotFoundException e){ 
+            System.out.println("Could not locate file");
+
+        }catch(IOException e){
+            System.out.println("Something went wrong");
         }
 
 
